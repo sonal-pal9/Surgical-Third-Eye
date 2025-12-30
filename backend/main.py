@@ -8,6 +8,10 @@ from model_loader import load_models
 from inference import run_inference
 
 app = FastAPI()
+@app.get("/")
+def root():
+    return {"status": "Backend is running"}
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -70,4 +74,5 @@ async def analyze_video(file: UploadFile = File(...)):
         "blood_ratio": 0.0,
         "smoke_score": 0.0,
         "tool_count": 0
+
     }

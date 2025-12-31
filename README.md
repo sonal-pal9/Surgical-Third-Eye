@@ -62,11 +62,9 @@ https://visibility-detection.onrender.com/
 
 ## Screenshots
 
-![Screenshot 1](ss/Screenshot%202025-12-31%20112133.png)
-![Screenshot 2](ss/Screenshot%202025-12-31%20112142.png)
-![Screenshot 3](ss/Screenshot%202025-12-31%20112424.png)
-
-
+![Screenshot 1](screenshots/Screenshot 2025-12-31 112133.png)
+![Screenshot 2](screenshots/Screenshot 2025-12-31 112142.png)
+![Screenshot 3](screenshots/Screenshot 2025-12-31 112424.png)
 
 ## Technology Stack
 - Frontend: HTML, CSS, JavaScript
